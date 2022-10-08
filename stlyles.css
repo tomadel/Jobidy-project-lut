@@ -20,16 +20,21 @@ body{display: flex;}
 
 }
 
+
+
 .header-container {
     display: flex;
     justify-content: space-around;
     margin: 10px;
+    top: 0;
+    width: 100%;
 }
 
 img{
     margin-top: 10px;
     height: 150px;
     width: 150px;
+    
 }
 
 .nav-container{
@@ -38,6 +43,7 @@ img{
 
 
 .nav-buttons {
+    
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -48,6 +54,7 @@ img{
 }
 
 .page-buttons{
+
     text-decoration: none;
     color: rgb(21, 135, 228);
 }
@@ -75,7 +82,7 @@ img{
 }
 
 .search-container{
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
@@ -111,7 +118,7 @@ img{
 
 .how-it-works-paragraph{
     font-weight: 100;
-    opacity: 1;
+    opacity: 0.9;
     color: white;
 }
 
@@ -126,6 +133,7 @@ img{
     overflow: auto;
     height: 100%;
     width: 100%;
+   
     
     
      /* or whatever width you want. */
@@ -145,13 +153,15 @@ img{
 .about-us-header{
     padding-top: 150px;
     color: white;
+    opacity: 0.9;
 }
 
 .about-us-paragraph{
     font-weight: 100;
-    opacity: 0.8;
+    opacity: 0.9;
     color: white;
     background-color: rgb(24, 111, 161);
     text-align: center;
     padding: 10px;
+    
 }
